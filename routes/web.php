@@ -54,3 +54,6 @@ Route::get('/Login', function () {
 Route::get('/profil', function () {
     return view('profil');
 });
+Route::get('/resultat', function () {
+    return view('resultat');
+});
