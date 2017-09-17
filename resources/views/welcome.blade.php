@@ -13,10 +13,12 @@
     <header>  
         <nav>
             <div class="nav-wrapper">
+            <a href="/">
                 <img src="image/logo.jpg" class="brand-logo">
+            </a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
                     <li><a href="#">inscription</a></li>
-                    <li><a href="Login"></a>connexion</li>
+                    <li><a href="Login">connexion</a></li>
                 </ul>
             </div>
         </nav>
@@ -25,7 +27,7 @@
         <div class="col s12 ">
           <div class="card silver">
             <div class="card-content white-text">
-              <a href="philo"><h4 class="card-title philo">Une énergie bien dépensé</h4></a>
+              <a href="philo"><h4 class="card-title philo">Une énergie bien dépensée</h4></a>
             </div>
           </div>
         </div>

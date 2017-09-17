@@ -13,16 +13,22 @@
     <header>  
         <nav>
             <div class="nav-wrapper">
+            <a href="/">
                 <img src="image/logo.jpg" class="brand-logo">
+            </a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
                     <li><a href="#">inscription</a></li>
-                    <li><a href="Login"></a>connexion</li>
+                    <li><a href="Login">connexion</a></li>
                 </ul>
             </div>
         </nav>
     </header>
     <main>
-        <form action="" method="Post">
+    <div class="container">
+    <div class="col s6">
+        
+        
+        <form action="account" method="Post">
             <div>
                 <label>Email:</label>
                 <input type="email" name="email">
@@ -31,7 +37,12 @@
                 <label>Mot de passe</label>
                 <input type="password" name="password">
             </div>
+            <div>
+            </div>
         </form>
+                <button ><a href="account">Connexion</a></button>
+    </div>
+    </div>
     </main>
 
 

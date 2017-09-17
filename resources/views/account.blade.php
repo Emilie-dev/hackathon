@@ -13,17 +13,20 @@
     <header>  
         <nav>
             <div class="nav-wrapper">
+            <a href="/">
                 <img src="image/logo.jpg" class="brand-logo">
+            </a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
                     <li><a href="#">inscription</a></li>
-                    <li><a href="Login"></a>connexion</li>
+                    <li><a href="Login">connexion</a></li>
                 </ul>
             </div>
         </nav>
     </header>
     <main class="container">
-        <h3>Mettre à jour son profil</h3>
-        <form action="/editAccount/{{$value->id}}" method="post">
+        <h3>Completer son profil</h3>
+        <a href="profil">Remplir plus tard</a>
+        <form action="/editAccount/" method="post">
         <div>
             <label for="name">Nom</label>
             <input type="text" id="name" name="lastName">
@@ -58,22 +61,21 @@
         </div>
         <div>
             <label for="house">Type de logement</label>
-            <select name="house">
-                <option value="Maison">Maison</option>
-                <option value="Appartement">Appartement</option>
-            </select>
+            <input type="radio" name="houses" id="maison">
+            <label for="maison">Maison</label>
+            <input type="radio" name="houses" id="appart">
+            <label for="appart">Appartement</label>
         </div>    
         <div>
             <label for="electricHeating">Chauffage electrique</label>
-            <select name="electricHeating">
-                <option value="0">Non</option>
-                <option value="1">Oui</option>
-            </select>
+            <input type="checkbox" name="oui" id="">
+                <label for="oui">Oui</label>
+                
         </div>
         <div>
-            <button type="submit">Valider</button>
         </div>
         </form>
+            <button ><a href="profil">Valider</a></button>
     </main>
 
 

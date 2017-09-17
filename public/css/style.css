@@ -5,3 +5,10 @@ img{
 .philo{
 	text-align: center;
 }
+.info{
+	display: flex;
+}
+.infoul{
+	margin-left: 3em;
+	margin-right: 3em;
+}
